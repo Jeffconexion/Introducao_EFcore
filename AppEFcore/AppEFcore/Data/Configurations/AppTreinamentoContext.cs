@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AppEFcore.Data.Configurations
 {
-    public class AppContext : DbContext
+    public class AppTreinamentoContext : DbContext
     {
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<Produto> Produtos { get; set; }
@@ -21,7 +21,7 @@ namespace AppEFcore.Data.Configurations
             // modelBuilder.ApplyConfiguration(new ClienteConfiguration());
 
             //Vai procurar no meu assemble pelo Fluent Api.
-            modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppContext).Assembly);
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppTreinamentoContext).Assembly);
         }
 
     }
