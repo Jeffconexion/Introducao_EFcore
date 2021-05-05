@@ -14,6 +14,10 @@
 * Migrações.
 * Operações.
 
+### Package ###
+
+* Install-Package Microsoft.Extensions.Logging.Console
+
 
 ### Projeto ###
 
