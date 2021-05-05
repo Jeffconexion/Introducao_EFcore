@@ -24,5 +24,5 @@ relacionado a desempenho.
 </p> 
 
 <p align="center">
-  <img src="https://github.com/Jeffconexion/SysAluno/blob/main/sysProject.gif" />
+  <img src="https://github.com/Jeffconexion/Introducao_EFcore/blob/main/introducaoEFcore.gif" />
 </p>
